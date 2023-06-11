@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Maze&family=Silkscreen:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+	display: none;
+}
+.nav-head{
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	width: 100%;
+	left:0;
+	top:0;
+	padding: 10px;
+	user-select: none;
+	font-family: 'Aboreto', cursive;
+}
+header .nav-logo{
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+	font-weight: 600;
+}
+header .nav-links{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	display: none;
+}
+header nav a{
+	margin-right: 2vw;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.sec{
+	padding-top: 70px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+}
+#goup{
+	border-radius: 50%;
+	position: fixed;
+	right:20px;
+	bottom:20px;
+	background-color: purple;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display:none; 
+}
+#menu-btn{
+	display: flex;
+	margin-right: 25px;
+	justify-content: center;
+	align-items: center;
+}
+#menu{
+	display: block;
+}
+#cross{
+	display: none;
+}
+/*#circle{
+	height: 50px;
+	width:50px;
+	position: absolute;
+	background-color: green;
+	border-radius: 50%;
+}*/
+.profile{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#profile-image{
+	border-radius: 50%;
+}
+#profile-name{
+	margin-left: 10px;
+}
+.content{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+}
+.avatar{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.avatar img{
+	height: 90%;
+}
+.avatar-about{
+	width: 100%;
+	height: 100%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+#greet, #name-about, #coding-profiles, #social-profiles, #contact-resume{
+	width: 100%;
+	text-align: center;
+	background-color: red;
+}
+#greet{ font-size: 25px; font-family: 'Libre Baskerville', serif;  }
+#name-about{ font-size: 30px; font-family: 'Libre Baskerville', serif;  }
+#name-about p{ font-size: 25px;  }

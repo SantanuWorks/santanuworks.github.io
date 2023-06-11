@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Libre+Baskerville&family=Roboto+Mono:wght@600&display=swap');
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+	display: none;
+}
+.nav-head{
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+	top:0;
+	left:0;
+	padding: 10px 5%;
+	user-select: none;
+}
+header .nav-links{
+	display: flex;
+	align-items: center;
+	color:white;
+}
+header nav a{
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 600;
+	font-family: 'Roboto Mono', monospace;
+	letter-spacing: 1px;
+	color:white;
+	margin-left: 25px;
+}
+.sec{
+	height: 100vh;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding-top: 20px;
+	color:white;
+}
+.sec:nth-child(even){
+	background-color: lime;
+}
+#goup{
+	border-radius: 50%;
+	position: fixed;
+	right:20px;
+	bottom:20px;
+	background-color: purple;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display:none; 
+}
+#menu-btn{
+	display: none;
+}
+.logo{
+	color:white;
+	font-size: 40px;
+	font-family: 'Cherry Bomb One', cursive;
+	letter-spacing: 1px;
+}
+.content{
+	width: 90%;
+	height: 90%;
+	display: flex;
+}
+.avatar{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.avatar img{
+	height: 90%;
+}
+.avatar-about{
+	height: 100%;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+#about-section{ 
+	width: 90%; 
+	font-family: 'Libre Baskerville', serif; 
+	letter-spacing: 1px; 
+	display: flex; 
+	flex-direction: column;
+}
+#greet{ 
+	font-family: 'Roboto Mono', monospace; 
+	margin-top: 1vw; 
+	font-size: 2vw; 
+}
+#my-name{ 
+	font-family: 'Roboto Mono', monospace; 
+    margin-top: 1vw; 
+    font-size: 3vw;  
+}
+#about-head{ 
+	font-size: 13px; 
+	margin-top: 1.8vw; 
+	width: 93px;
+	padding: 2px 0;
+	border-bottom: 1px solid white;
+}
+#about-para{ 
+	font-size: 14px; 
+	margin-top: 10px; 
+	line-height: 1.9; 
+	text-align: justify; 
+}
+#contact-resume{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	user-select: none;
+}
+#contact-btn{
+	height: 35px;
+	width: 49%;
+	background-color: white;
+	border: 1px solid white;
+	font-family: 'Libre Baskerville', serif; 
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 7px; 
+}
+.profile{
+	user-select: none;
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	font-family: 'Libre Baskerville', serif; 
+	text-transform: uppercase;
+	font-size: 15px; 
+	margin-top: 20px;
+}
+.platform{
+	margin-top: 5px;
+	height: 5vh;
+	width: 5vh;
+	color: white;
+	fill: white;
+}
