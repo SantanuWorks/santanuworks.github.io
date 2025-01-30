@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santanu Pradhan</title>
+
+    <!-- Standard favicon -->
+    <link rel="icon" href="tab_logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="tab_logo.png" type="image/x-icon">
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="tab_logo.png">
+
+    <!-- Android Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="tab_logo.png">
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="tab_logo.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <button id="dark-mode-toggle" class="dark-mode-toggle">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- Header with Top-Down Sidenav -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="logo2.png" alt="Dev Logo" class="logo-img">
+      </div>
+      <div class="hamburger" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#instagram">Instagram</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about animate__fadeInLeft">
+    <div class="profile">
+      <img src="profile.jpeg" alt="Profile Photo" class="profile-photo">
+      <h1>Hi, I'm John Doe</h1>
+      <p>Full Stack Developer | Tech Enthusiast</p>
+      <div class="social-links">
+        <a href="https://linkedin.com" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="mailto:john.doe@example.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="resume.pdf" download>
+          <i class="fas fa-download"></i> Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section id="timeline" class="timeline animate__fadeInRight">
+    <h2>My Journey</h2>
+    <div class="timeline-container">
+      <div class="timeline-line"></div>
+      <div class="timeline-item">
+        <h3>2023 - Present</h3>
+        <p>Senior Developer at XYZ Corp</p>
+      </div>
+      <div class="timeline-item">
+        <h3>2020 - 2023</h3>
+        <p>Software Engineer at ABC Inc</p>
+      </div>
+      <div class="timeline-item">
+        <h3>2016 - 2020</h3>
+        <p>Bachelor's in Computer Science</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills animate__fadeInUp">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fab fa-node-js"></i>
+        <h3>Node.js</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-database"></i>
+        <h3>MongoDB</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-server"></i>
+        <h3>REST APIs</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-python"></i>
+        <h3>Python</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-aws"></i>
+        <h3>AWS</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-code-branch"></i>
+        <h3>Git</h3>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Certifications Section -->
+<section id="certifications" class="certifications animate__fadeInUp">
+    <h2>My Certifications</h2>
+    <div class="certifications-grid">
+      <div class="certification-card">
+        <img src="Project_Post_1.png" alt="JavaScript Advanced Concepts Certificate" class="certificate-image">
+        <h3>Full Stack Web Development</h3>
+        <p>Issued by: ABC Academy</p>
+        <p>Date: January 2023</p>
+        <a href="certificate1.pdf" target="_blank" class="certification-link">
+          <i class="fas fa-certificate"></i> View Certificate
+        </a>
+      </div>
+      <div class="certification-card">
+        <img src="Project_Post_1.png" alt="JavaScript Advanced Concepts Certificate" class="certificate-image">
+        <h3>JavaScript Advanced Concepts</h3>
+        <p>Issued by: XYZ Institute</p>
+        <p>Date: March 2023</p>
+        <a href="certificate2.pdf" target="_blank" class="certification-link">
+          <i class="fas fa-certificate"></i> View Certificate
+        </a>
+      </div>
+      <div class="certification-card">
+        <img src="Project_Post_1.png" alt="JavaScript Advanced Concepts Certificate" class="certificate-image">
+        <h3>AWS Certified Solutions Architect</h3>
+        <p>Issued by: Amazon Web Services</p>
+        <p>Date: June 2023</p>
+        <a href="certificate3.pdf" target="_blank" class="certification-link">
+          <i class="fas fa-certificate"></i> View Certificate
+        </a>
+      </div>
+      <!-- Add more certification cards -->
+    </div>
+  </section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects animate__fadeInLeft">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="Project_Post_1.png" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Description of Project 1.</p>
+        <div class="skill-tags">
+          <div class="skill-tag">
+            <i class="fab fa-html5"></i> HTML
+          </div>
+          <div class="skill-tag">
+            <i class="fab fa-css3-alt"></i> CSS
+          </div>
+          <div class="skill-tag">
+            <i class="fab fa-js"></i> JavaScript
+          </div>
+        </div>
+        <a href="https://github.com/project1" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="Project_Post_2.png" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Description of Project 2.</p>
+        <div class="skill-tags">
+          <div class="skill-tag">
+            <i class="fab fa-react"></i> React
+          </div>
+          <div class="skill-tag">
+            <i class="fab fa-node-js"></i> Node.js
+          </div>
+          <div class="skill-tag">
+            <i class="fas fa-database"></i> MongoDB
+          </div>
+        </div>
+        <a href="https://github.com/project2" target="_blank">View on GitHub</a>
+      </div>
+      <!-- Add more project cards -->
+    </div>
+  </section>
+
+    <!-- Articles Section -->
+    <section id="articles" class="articles animate__fadeInRight">
+        <h2>My Articles</h2>
+        <div class="article-grid ">
+            <div class="article-card">
+                <h3>Article 1</h3>
+                <p>Description of Article 1.</p>
+                <a href="#" target="_blank">Read More</a>
+            </div>
+            <div class="article-card">
+                <h3>Article 2</h3>
+                <p>Description of Article 2.</p>
+                <a href="#" target="_blank">Read More</a>
+            </div>
+            <div class="article-card">
+                <h3>Article 3</h3>
+                <p>Description of Article 3.</p>
+                <a href="#" target="_blank">Read More</a>
+            </div>
+            <div class="article-card">
+                <h3>Article 4</h3>
+                <p>Description of Article 4.</p>
+                <a href="#" target="_blank">Read More</a>
+            </div>
+        </div>
+        <button id="load-more-articles" class="load-more-button">Load More</button>
+    </section>
+
+  <!-- Instagram Section -->
+  <section id="instagram" class="instagram animate__fadeInUp">
+    <h2>My Instagram</h2>
+    <div class="instagram-slider">
+      <div class="slider-item">
+        <img src="1.webp" alt="Instagram Post 1">
+        <h3>Post 1</h3>
+        <a href="https://instagram.com/post1" target="_blank">View Post</a>
+      </div>
+      <div class="slider-item">
+        <img src="2.webp" alt="Instagram Post 2">
+        <h3>Post 2</h3>
+        <a href="https://instagram.com/post2" target="_blank">View Post</a>
+      </div>
+      <!-- Add more slider items -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact animate__fadeInLeft">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 John Doe. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
