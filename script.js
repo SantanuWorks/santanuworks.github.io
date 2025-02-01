@@ -71,3 +71,24 @@ navLinks.forEach(link => {
     }
   });
 });
+
+
+// Timeline Animation
+const timelineItems = document.querySelectorAll('.timeline-item');
+
+function checkTimelineVisibility() {
+  timelineItems.forEach((item) => {
+    const itemTop = item.getBoundingClientRect().top;
+    const itemBottom = item.getBoundingClientRect().bottom;
+
+    if (itemTop < window.innerHeight && itemBottom > 0) {
+      item.classList.add('visible');
+    }
+  });
+}
+
+// Trigger animation on scroll
+window.addEventListener('scroll', checkTimelineVisibility);
+
+// Initial check on page load
+checkTimelineVisibility();

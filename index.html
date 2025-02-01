@@ -33,7 +33,7 @@
   <header>
     <nav>
       <div class="logo">
-        <img src="logo2.png" alt="Dev Logo" class="logo-img">
+        <img src="logo2.png" alt="Dev Logo" class="logo-img" onclick="location.reload()">
       </div>
       <div class="hamburger" id="hamburger">
         <div class="line"></div>
@@ -61,23 +61,26 @@
       <p>Full Stack Developer | Tech Enthusiast</p>
       <div class="social-links">
         <a href="https://linkedin.com" target="_blank">
-          <i class="fab fa-linkedin"></i> LinkedIn
+          <i class="fab fa-linkedin fa-shake"></i>
         </a>
         <a href="https://github.com" target="_blank">
-          <i class="fab fa-github"></i> GitHub
+          <i class="fab fa-github fa-shake"></i> 
+        </a>
+        <a href="https://github.com" target="_blank">
+          <i class="fab fa-instagram fa-shake"></i> 
         </a>
         <a href="mailto:john.doe@example.com">
-          <i class="fas fa-envelope"></i> Email
+          <i class="fas fa-envelope fa-shake"></i>
         </a>
-        <a href="resume.pdf" download>
-          <i class="fas fa-download"></i> Resume
+        <a href="resume.pdf" title="Resume" download>
+          <i class="fas fa-download fa-shake"></i>
         </a>
       </div>
     </div>
   </section>
 
   <!-- Timeline Section -->
-  <section id="timeline" class="timeline animate__fadeInRight">
+  <!-- <section id="timeline" class="timeline animate__fadeInRight">
     <h2>My Journey</h2>
     <div class="timeline-container">
       <div class="timeline-line"></div>
@@ -94,10 +97,52 @@
         <p>Bachelor's in Computer Science</p>
       </div>
     </div>
-  </section>
+  </section> -->
+
+
+
+  <!-- Timeline Section -->
+<section id="timeline" class="timeline animate__fadeInUp">
+  <h2>My Journey</h2>
+  <div class="timeline-container">
+    <div class="timeline-line"></div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <div class="timeline-icon">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <h3>2023 - Present</h3>
+        <p>Senior Developer at XYZ Corp</p>
+        <p>Working on cutting-edge technologies and leading a team of developers.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <div class="timeline-icon">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <h3>2020 - 2023</h3>
+        <p>Software Engineer at ABC Inc</p>
+        <p>Developed scalable web applications and contributed to open-source projects.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <div class="timeline-icon">
+          <i class="fas fa-university"></i>
+        </div>
+        <h3>2016 - 2020</h3>
+        <p>Bachelor's in Computer Science</p>
+        <p>Graduated with honors and specialized in AI and Machine Learning.</p>
+      </div>
+    </div>
+    <!-- Add more timeline items -->
+  </div>
+</section>
+
 
   <!-- Skills Section -->
-  <section id="skills" class="skills animate__fadeInUp">
+  <!-- <section id="skills" class="skills animate__fadeInUp">
     <h2>My Skills</h2>
     <div class="skills-grid">
       <div class="skill-card">
@@ -125,8 +170,94 @@
         <h3>Git</h3>
       </div>
     </div>
-  </section>
+  </section> -->
   
+
+
+  <!-- Skills Section -->
+<section id="skills" class="skills animate__fadeInUp">
+  <h2>My Skills</h2>
+  <div class="skills-categories">
+    <!-- Languages -->
+    <div class="skills-category">
+      <h3>Languages</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h4>JavaScript</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-python"></i>
+          <h4>Python</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-java"></i>
+          <h4>Java</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Frameworks -->
+    <div class="skills-category">
+      <h3>Frameworks</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-node-js"></i>
+          <h4>Node.js</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-server"></i>
+          <h4>Express.js</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-flask"></i>
+          <h4>Flask</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Databases -->
+    <div class="skills-category">
+      <h3>Databases</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h4>MongoDB</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h4>MySQL</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h4>PostgreSQL</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="skills-category">
+      <h3>Tools</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-git"></i>
+          <h4>Git</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-docker"></i>
+          <h4>Docker</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-aws"></i>
+          <h4>AWS</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 <!-- Certifications Section -->
 <section id="certifications" class="certifications animate__fadeInUp">
@@ -206,33 +337,76 @@
     </div>
   </section>
 
-    <!-- Articles Section -->
-    <section id="articles" class="articles animate__fadeInRight">
-        <h2>My Articles</h2>
-        <div class="article-grid ">
-            <div class="article-card">
-                <h3>Article 1</h3>
-                <p>Description of Article 1.</p>
-                <a href="#" target="_blank">Read More</a>
-            </div>
-            <div class="article-card">
-                <h3>Article 2</h3>
-                <p>Description of Article 2.</p>
-                <a href="#" target="_blank">Read More</a>
-            </div>
-            <div class="article-card">
-                <h3>Article 3</h3>
-                <p>Description of Article 3.</p>
-                <a href="#" target="_blank">Read More</a>
-            </div>
-            <div class="article-card">
-                <h3>Article 4</h3>
-                <p>Description of Article 4.</p>
-                <a href="#" target="_blank">Read More</a>
-            </div>
-        </div>
-        <button id="load-more-articles" class="load-more-button">Load More</button>
-    </section>
+  <!-- Articles Section -->
+  <!-- <section id="articles" class="articles animate__fadeInRight">
+      <h2>My Articles</h2>
+      <div class="article-grid ">
+          <div class="article-card">
+              <h3>Article 1</h3>
+              <p>Description of Article 1.</p>
+              <a href="#" target="_blank">Read More</a>
+          </div>
+          <div class="article-card">
+              <h3>Article 2</h3>
+              <p>Description of Article 2.</p>
+              <a href="#" target="_blank">Read More</a>
+          </div>
+          <div class="article-card">
+              <h3>Article 3</h3>
+              <p>Description of Article 3.</p>
+              <a href="#" target="_blank">Read More</a>
+          </div>
+          <div class="article-card">
+              <h3>Article 4</h3>
+              <p>Description of Article 4.</p>
+              <a href="#" target="_blank">Read More</a>
+          </div>
+      </div>
+      <button id="load-more-articles" class="load-more-button">Load More</button>
+  </section> -->
+
+
+
+
+  <!-- Articles Section -->
+<section id="articles" class="articles animate__fadeInUp">
+  <h2>My Articles</h2>
+  <div class="articles-grid">
+    <div class="article-card">
+      <div class="article-icon">
+        <i class="fas fa-code"></i>
+      </div>
+      <h3>Building Scalable APIs with Node.js</h3>
+      <p>Learn how to design and build scalable RESTful APIs using Node.js and Express.</p>
+      <a href="#" target="_blank" class="article-link">
+        <i class="fas fa-arrow-right"></i> Read More
+      </a>
+    </div>
+    <div class="article-card">
+      <div class="article-icon">
+        <i class="fas fa-database"></i>
+      </div>
+      <h3>Mastering MongoDB for Backend Development</h3>
+      <p>A comprehensive guide to using MongoDB for modern backend applications.</p>
+      <a href="#" target="_blank" class="article-link">
+        <i class="fas fa-arrow-right"></i> Read More
+      </a>
+    </div>
+    <div class="article-card">
+      <div class="article-icon">
+        <i class="fas fa-cloud"></i>
+      </div>
+      <h3>Deploying Applications on AWS</h3>
+      <p>Step-by-step guide to deploying and managing applications on AWS.</p>
+      <a href="#" target="_blank" class="article-link">
+        <i class="fas fa-arrow-right"></i> Read More
+      </a>
+    </div>
+    <!-- Add more article cards -->
+  </div>
+</section>
+
+
 
   <!-- Instagram Section -->
   <section id="instagram" class="instagram animate__fadeInUp">
